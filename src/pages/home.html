@@ -1,1 +1,110 @@
-<h1>HOmme</h1>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/home.css">
+
+    <link rel="shortcut icon" href="../assets/icons/logo.png" type="image/x-icon">
+
+    <title>Cassino Sorte em Perder | Home</title>
+</head>
+<body>
+
+    <audio id="bgm" loop>
+        <source src="../assets/audios/music2.mp3" type="audio/mp3" />
+    </audio> 
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="../assets/images/logoTranas.png" alt="logo do site">
+                </a>
+            </div>
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Jogos</a></li>
+                    <li><a href="#">Termo de Serviços</a></li>
+                    <li><a href="#">Sobre</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="jogos-cassino">
+            <div class="game1">
+                <img class="game-casine" src="../assets/images/Game1.png" onclick="redirecionarParaOutraPagina('../pages/game1.html')">
+            </div>
+        </div>
+
+        <div class="jogos-cassino">
+            <div class="game2">
+                <img class="game-casine" src="../assets/images/Game2.png" onclick="redirecionarParaOutraPagina('../pages/game2.html')">
+            </div>
+        </div>
+
+        <div class="jogos-cassino">
+            <div class="game3">
+                <img class="game-casine" src="../assets/images/Game3.png" onclick="redirecionarParaOutraPagina('../pages/game3.html')">
+            </div>
+        </div>
+
+        <!-- <div class="jogos-cassino">
+            <div class="game4">
+                <img class="game-casine" src="../assets/images/Fundo gt.png" onclick="redirecionarParaOutraPagina('../pages/game4.html')">
+            </div>
+        </div>
+
+        <div class="jogos-cassino">
+            <div class="game5">
+                <img class="game-casine" src="../assets/images/Fundo gt.png" onclick="redirecionarParaOutraPagina('../pages/game5.html')">
+            </div>
+        </div>
+
+        <div class="jogos-cassino">
+            <div class="game6">
+                <img class="game-casine" src="../assets/images/Fundo gt.png" onclick="redirecionarParaOutraPagina('../pages/game6.html')">
+            </div>
+        </div>
+
+        <div class="jogos-cassino">
+            <div class="game7">
+                <img class="game-casine" src="../assets/images/Fundo gt.png" onclick="redirecionarParaOutraPagina('../pages/game7.html')">
+            </div>
+        </div>
+        
+        <div class="jogos-cassino">
+            <div class="game8">
+                <img class="game-casine" src="../assets/images/Fundo gt.png" onclick="redirecionarParaOutraPagina('../pages/game8.html')">
+            </div>
+        </div>
+
+        <div class="jogos-cassino">
+            <div class="game9">
+                <img class="game-casine" src="../assets/images/Fundo gt.png" onclick="redirecionarParaOutraPagina('../pages/game9.html')">
+            </div>
+        </div> -->
+
+
+        <!-- Adicione mais blocos semelhantes para outros jogos -->
+
+    </main>
+    <script src="../scripts/home.js"></script>
+
+    <script>
+        // Função geral para redirecionar para outra página
+        function redirecionarParaOutraPagina(pagina) {
+            window.location.href = pagina;
+        }
+    </script>
+</body>
+</html>
