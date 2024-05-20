@@ -27,7 +27,7 @@
                 <input type="text" placeholder="Your ID" class="login-ip" id="loginNameInput" name="loginName">
                 <input type="password" placeholder="Password" class="login-ip" id="loginPasswordInput" name="loginPassword">
                 <label for="signupLink">Don't have a registration yet?</label><br>
-                <a href="#" id="signupLink">Cadastre-se</a>
+                <a id="signupLink" onclick="showRegisterForm()" style="cursor: pointer;">Cadastre-se</a><br>
             </div>
             <button type="button" class="login__button" onclick="logar()">Login</button>
         </form>
@@ -37,7 +37,7 @@
 
     <div class="register">
         <form action="login-form">
-            <div>
+            <div class="forms">
                 <h1>Register</h1>
                 <img class="logo-2" src="/src/assets/images/logoTranas.png" alt="logo do site">
 
@@ -64,7 +64,7 @@
                 </fieldset>
 
                 <label for="signupLong">Already have an account?</label><br>
-                <a href="#" id="signupLong">Login</a><br><br>
+                <a id="signupLink" onclick="showLoginForm()" style="cursor: pointer;">Login</a><br>
             </div>
             <button type="button" class="login__button" onclick="cadastrar()">Cadastrar</button>
         </form>

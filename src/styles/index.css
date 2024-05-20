@@ -1,3 +1,4 @@
+/* Estilos para o body */
 body {
     background-color: rgb(253, 253, 253);
     display: flex;
@@ -6,12 +7,17 @@ body {
     height: 100vh;
     margin: 0;
 }
-.checkAges{
+
+/* Estilos para o elemento de verificação de idade */
+.checkAges {
     font-size: 50px;
     text-align: center;
-    /* Fundo cinza claro quase transparente */
+    border: 2px solid rgba(128, 128, 128, 0.5); /* Borda de 2px com cor cinza claro quase transparente */
+    background-color: rgba(192, 192, 192, 0.2); /* Fundo cinza claro quase transparente */
     padding: 20px; /* Adiciona algum preenchimento para espaçamento interno */
 }
+
+/* Estilos para os botões Yes e No */
 .yes, .no {
     top: 30px;
     font-size: 25px;
@@ -22,44 +28,59 @@ body {
     cursor: pointer;
     transition: width 0.5s, height 0.5s; /* Adiciona uma transição suave */
 }
-.yes{
+
+.yes {
     background-color: rgb(107, 236, 107);
 }
+
 .no {
     background-color: rgb(180, 39, 39);
 }
+
 .yes:hover {
     width: 100px; /* Aumenta a largura para 40px quando hover */
     height: 66px; /* Aumenta a altura para 16px quando hover */
     background-color: rgb(3, 158, 3); /* Muda a cor de fundo para verde quando hover */
     font-size: 30px;
 }
+
 .no:hover {
     width: 100px; /* Aumenta a largura para 40px quando hover */
     height: 66px; /* Aumenta a altura para 16px quando hover */
     background-color: rgb(189, 1, 1); /* Muda a cor de fundo para vermelho quando hover */
     font-size: 30px;
 }
-.logo-1 {
+
+/* Estilos para a imagem do logo */
+.logo-1, .logo-2 {
     margin: 15px auto; 
     width: 100px;
-} 
-.texts{
+}
+
+/* Estilos para o texto de cabeçalho */
+.texts {
     font-size: 90px;
 }
-.login {
+
+/* Estilos para o formulário de login */
+.login, .register {
     display: flex;
-    justify-items: center;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    height: 100vh; /* Ocupa toda a altura da viewport */
+    height: 100vh;
     border: 10px;
 }
-.login__header{
+
+/* Estilos para o cabeçalho do formulário de login */
+.login__header {
     display: flex;
     flex-direction: column;
-    text-align: center; 
+    text-align: center;
 }
-.login__header input {
+
+/* Estilos para os inputs nos formulários */
+.login__header input, .forms input {
     border: 2px solid rgba(128, 128, 128, 0.5); /* Borda de 2px com cor cinza claro quase transparente */
     background-color: rgba(192, 192, 192, 0.2); 
     width: auto; /* Define a largura dos inputs como 90px */
@@ -68,14 +89,9 @@ body {
     font-size: 25px; /* Define o tamanho da fonte */
     margin: 10px auto;
 }
-.login > * {
-    margin: auto; /* Centraliza verticalmente */
-}
-.checkAges, .register {
-    display: none; /* Inicialmente oculta os elementos login e register */
-}
 
-.login__button{
+/* Estilos para os botões de login e cadastro */
+.login__button {
     margin: 15px;
     width: 200px;
     height: 60px;
@@ -87,9 +103,30 @@ body {
     transition: width 0.5s, height 0.5s;
 }
 
-.login__button:hover{
+.login__button:hover {
     width: 220px;
     height: 66px; 
     background-color: rgb(3, 158, 3); 
     font-size: 35px;
+}
+/* Estilos para os fieldsets e legendas */
+fieldset {
+    margin-bottom: 20px; /* Espaçamento entre cada fieldset */
+}
+
+fieldset input, fieldset label {
+    display: block; /* Coloca cada input e label em uma linha separada */
+    margin-bottom: 10px; /* Espaçamento entre cada input e label */
+}
+
+/* Esconde os elementos de login e registro inicialmente */
+.login, .register {
+    display: none;
+}
+
+
+a{
+    font-size: 30px;
+    font-style: italic;
+    color: #2c2828;
 }

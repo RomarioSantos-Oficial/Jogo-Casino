@@ -1,10 +1,20 @@
-// function showLoginForm() {
-//     // Esconde o elemento checkAges
-//     document.querySelector('.checkAges').style.display = 'none';
-//     // Mostra o elemento de login
-//     document.querySelector('.login').style.display = 'block';
-// }
+function showLoginForm() {
+    // Esconde o elemento checkAges
+    document.querySelector('.checkAges').style.display = 'none';
+    // Mostra o elemento de login
+    document.querySelector('.login').style.display = 'block';
+    // Esconde o elemento de registro
+    document.querySelector('.register').style.display = 'none';
+}
 
+function showRegisterForm() {
+    // Esconde o elemento checkAges
+    document.querySelector('.checkAges').style.display = 'none';
+    // Esconde o elemento de login
+    document.querySelector('.login').style.display = 'none';
+    // Mostra o elemento de registro
+    document.querySelector('.register').style.display = 'block';
+}
 
 function handleNoClick() {
     // Adicione qualquer ação que você deseja executar quando o botão "No" for clicado
