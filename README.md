@@ -41,5 +41,5 @@ Este documento visa proteger os direitos de propriedade intelectual de [Nome do 
 ![LOGO](/src/assets/images/logoFbra.png)
 [Redes socias](https://linktr.ee/euoromario)
 
-[Link do Site](https://romariodevs.github.io/Jogo-Casino/)
+[Link do Site](https://romariodevs.github.io/Jogo-Cassino)
 [Repositorio](https://github.com/RomarioDevs/Jogo-Cassino)
