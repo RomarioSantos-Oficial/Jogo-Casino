@@ -56,7 +56,7 @@ function logar() {
         // Verifica se a senha corresponde à senha salva
         if (localStorage.getItem("password") === password) {
             // Senha correta, redireciona para outra página
-            window.location.href = "../src/pages/home.html";
+            window.location.href = "./src/pages/home.html";
         } else {
             // Senha incorreta
             alert("Senha incorreta.");
