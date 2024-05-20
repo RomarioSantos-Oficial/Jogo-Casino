@@ -39,6 +39,11 @@ Para dúvidas ou mais informações sobre os termos de uso e a política de prop
 Este documento visa proteger os direitos de propriedade intelectual de [Nome do Site] e assegurar que o conteúdo disponibilizado seja utilizado de maneira justa e legal. Agradecemos por respeitar nossos termos de uso e por contribuir para a proteção do conteúdo digital.
 
 ![LOGO](/src/assets/images/logoFbra.png)
+![IMG](/DEvgs/A%20(4).png)
+![IMG](/DEvgs/A%20(3).png)
+![IMG](/DEvgs/A%20(2).png)
+![IMG](/DEvgs/A%20(1).png)
+
 [Redes socias](https://linktr.ee/euoromario)
 
 [Link do Site](https://romariodevs.github.io/Jogo-Cassino)
