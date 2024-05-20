@@ -1,42 +1,42 @@
 # Jogo de simulação de Cassino
 
-# Termos de Uso e Propriedade Intelectual
+# Terms of Use and Intellectual Property
 
-1. Propriedade Intelectual
+1. Intellectual Property
 
-Todo o conteúdo disponibilizado neste site, incluindo, mas não se limitando a textos, imagens, gráficos, logotipos, ícones, vídeos, áudios e códigos, é de propriedade exclusiva de [Nome do Site] ou de seus licenciadores e é protegido por leis de direitos autorais, marcas registradas e outras legislações aplicáveis. A reprodução, distribuição, exibição ou qualquer outra forma de utilização do conteúdo, sem a devida autorização por escrito de [Nome do Site], é estritamente proibida.
+All content available on this site, including but not limited to texts, images, graphics, logos, icons, videos, audio, and codes, is the exclusive property of [O Cassino sorte de perder](https://linktr.ee/euoromario) or its licensors and is protected by copyright laws, trademark laws, and other applicable legislation. Reproduction, distribution, display, or any other form of use of the content without prior written authorization from [O Cassino sorte de perder](https://linktr.ee/euoromario) is strictly prohibited.
 
-2. Uso Permitido
+2. Permitted Use
 
-Você está autorizado a acessar e utilizar este site e seu conteúdo exclusivamente para fins pessoais e não comerciais. Qualquer uso do conteúdo deste site para finalidades comerciais ou outras finalidades que não estejam expressamente permitidas por estes termos de uso é proibido.
+You are authorized to access and use this site and its content exclusively for personal and non-commercial purposes. Any use of the content of this site for commercial purposes or other purposes not expressly permitted by these terms of use is prohibited.
 
-3. Proibição de Venda e Distribuição
+3. Prohibition of Sale and Distribution
 
-Você concorda em não vender, licenciar, distribuir, copiar, modificar, exibir publicamente, transmitir, publicar, editar, adaptar, criar obras derivadas ou explorar comercialmente qualquer conteúdo deste site sem a autorização prévia por escrito de [Nome do Site].
+You agree not to sell, license, distribute, copy, modify, publicly display, transmit, publish, edit, adapt, create derivative works, or commercially exploit any content from this site without prior written authorization from [O Cassino sorte de perder](https://linktr.ee/euoromario).
 
-4. Proteção de Códigos e Imagens
+4. Protection of Codes and Images
 
-Os códigos e imagens presentes neste site são propriedade exclusiva de [Romario Santos](https://linktr.ee/euoromario) e estão protegidos por direitos autorais e outras legislações de propriedade intelectual. Qualquer tentativa de copiar, reproduzir, vender ou utilizar esses códigos e imagens sem a devida autorização é estritamente proibida e pode resultar em ações legais.
+The codes and images present on this site are the exclusive property of [Romario Santos](https://linktr.ee/euoromario) and are protected by copyright and other intellectual property laws. Any attempt to copy, reproduce, sell, or use these codes and images without proper authorization is strictly prohibited and may result in legal action.
 
-5. Consequências Legais
+5. Legal Consequences
 
-O uso não autorizado do conteúdo deste site pode violar leis de direitos autorais, marcas registradas e outras legislações aplicáveis, resultando em sanções civis e criminais. [O Cassino sorte de perder](https://linktr.ee/euoromario) se reserva o direito de buscar todas as medidas legais disponíveis para proteger seus direitos de propriedade intelectual.
+Unauthorized use of the content on this site may violate copyright laws, trademark laws, and other applicable legislation, resulting in civil and criminal penalties. O Cassino sorte de perder reserves the right to pursue all legal measures available to protect its intellectual property rights.
 
-6. Relatórios de Infrações
+6. Reporting Infringements
 
-Se você acreditar que qualquer conteúdo disponível neste site viola seus direitos de propriedade intelectual, por favor, entre em contato conosco imediatamente através do e-mail romariodevs@gmail.com para que possamos tomar as medidas adequadas.
+If you believe that any content available on this site violates your intellectual property rights, please contact us immediately at romariodevs@gmail.com so we can take appropriate action.
 
-Ao utilizar este site, você concorda em cumprir com todos os termos e condições estabelecidos aqui. O uso continuado do site será considerado como sua aceitação incondicional destes termos.
+By using this site, you agree to comply with all terms and conditions set forth herein. Continued use of the site will be considered your unconditional acceptance of these terms.
 
-7. Atualizações dos Termos de Uso
+7. Updates to the Terms of Use
 
-O Cassino sorte de perder se reserva o direito de modificar estes termos de uso a qualquer momento, sem aviso prévio. Recomendamos que você revise periodicamente estes termos para estar ciente de quaisquer mudanças. Seu uso contínuo do site após a publicação de alterações constituirá sua aceitação das alterações.
+O Cassino sorte de perder reserves the right to modify these terms of use at any time without prior notice. We recommend that you periodically review these terms to stay informed of any changes. Your continued use of the site after the publication of changes will constitute your acceptance of those changes.
 
-Contato
+Contact
 
-Para dúvidas ou mais informações sobre os termos de uso e a política de propriedade intelectual, por favor, entre em contato conosco pelo e-mail romariodevs@gmail.com.
+For questions or more information about the terms of use and the intellectual property policy, please contact us at romariodevs@gmail.com.
 
-Este documento visa proteger os direitos de propriedade intelectual de [Nome do Site] e assegurar que o conteúdo disponibilizado seja utilizado de maneira justa e legal. Agradecemos por respeitar nossos termos de uso e por contribuir para a proteção do conteúdo digital.
+This document aims to protect the intellectual property rights of [O Cassino sorte de perder](https://linktr.ee/euoromario) and ensure that the content provided is used fairly and legally. We appreciate your respect for our terms of use and your contribution to the protection of digital content.
 
 ![LOGO](/src/assets/images/logoFbra.png)
 ![IMG](/DEvgs/A%20(4).png)
