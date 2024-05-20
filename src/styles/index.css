@@ -6,15 +6,12 @@ body {
     height: 100vh;
     margin: 0;
 }
-
 .checkAges{
     font-size: 50px;
     text-align: center;
-    border: 2px solid rgba(128, 128, 128, 0.5); /* Borda de 2px com cor cinza claro quase transparente */
-    background-color: rgba(192, 192, 192, 0.2); /* Fundo cinza claro quase transparente */
+    /* Fundo cinza claro quase transparente */
     padding: 20px; /* Adiciona algum preenchimento para espaçamento interno */
 }
-
 .yes, .no {
     top: 30px;
     font-size: 25px;
@@ -25,39 +22,31 @@ body {
     cursor: pointer;
     transition: width 0.5s, height 0.5s; /* Adiciona uma transição suave */
 }
-
 .yes{
     background-color: rgb(107, 236, 107);
 }
 .no {
     background-color: rgb(180, 39, 39);
 }
-
 .yes:hover {
     width: 100px; /* Aumenta a largura para 40px quando hover */
     height: 66px; /* Aumenta a altura para 16px quando hover */
     background-color: rgb(3, 158, 3); /* Muda a cor de fundo para verde quando hover */
     font-size: 30px;
 }
-
 .no:hover {
     width: 100px; /* Aumenta a largura para 40px quando hover */
     height: 66px; /* Aumenta a altura para 16px quando hover */
     background-color: rgb(189, 1, 1); /* Muda a cor de fundo para vermelho quando hover */
     font-size: 30px;
 }
-
-/* Estilo para a imagem */
 .logo-1 {
-    margin: auto; 
+    margin: 15px auto; 
     width: 100px;
-
 } 
-
 .texts{
     font-size: 90px;
 }
-
 .login {
     display: flex;
     justify-items: center;
@@ -65,29 +54,42 @@ body {
     height: 100vh; /* Ocupa toda a altura da viewport */
     border: 10px;
 }
-
 .login__header{
     display: flex;
     flex-direction: column;
     text-align: center; 
 }
-
 .login__header input {
-    width: 90px; /* Define a largura dos inputs como 90px */
-    height: 30px; /* Define a altura dos inputs como 30px */
+    border: 2px solid rgba(128, 128, 128, 0.5); /* Borda de 2px com cor cinza claro quase transparente */
+    background-color: rgba(192, 192, 192, 0.2); 
+    width: auto; /* Define a largura dos inputs como 90px */
+    height: 50px; /* Define a altura dos inputs como 30px */
     text-align: center; /* Alinha o texto ao centro */
-    font-size: 16px; /* Define o tamanho da fonte */
-    margin: auto;
+    font-size: 25px; /* Define o tamanho da fonte */
+    margin: 10px auto;
 }
-
-
 .login > * {
     margin: auto; /* Centraliza verticalmente */
 }
-
-
-
 .checkAges, .register {
     display: none; /* Inicialmente oculta os elementos login e register */
 }
 
+.login__button{
+    margin: 15px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid rgba(167, 167, 167, 0.5); /* Borda de 2px com cor cinza claro quase transparente */
+    background-color: rgb(107, 236, 107);
+    font-size: 30px;
+    cursor: pointer;
+    transition: width 0.5s, height 0.5s;
+}
+
+.login__button:hover{
+    width: 220px;
+    height: 66px; 
+    background-color: rgb(3, 158, 3); 
+    font-size: 35px;
+}
