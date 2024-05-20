@@ -3,10 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cassino sorte de perder</title>
     <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="shortcut icon" href="./src/assets/icons/logo.png" type="image/x-icon">
 </head>
 <body>
-    
+
+    <div class="checkAges">
+        <p>Are you over 18?</p>
+        <button class="yes" type="button" onclick="showLoginForm()">Yes</button>
+        <button class="no" type="button" onclick="handleNoClick()">No</button>
+    </div>
+
+    <!-- Tela de login -->
+
+    <div class="login">
+        <form action="login-form">
+            <div class="login__header">
+                <h1 class="texts">Login screen</h1>
+                <img class="logo-1" src="/src/assets/images/logoTranas.png" alt="logo do site">
+
+                <input type="text" placeholder="Your ID" class="login-ip" id="loginNameInput" name="loginName">
+                <input type="password" placeholder="Password" class="login-ip" id="loginPasswordInput" name="loginPassword">
+                <label for="signupLink">Don't have a registration yet?</label><br>
+                <a href="#" id="signupLink">Cadastre-se</a>
+            </div>
+            <button type="button" class="login__button" onclick="logar()">Login</button>
+        </form>
+    </div>
+
+    <!-- Formulário de registro -->
+
+    <div class="register">
+        <form action="login-form">
+            <div>
+                <h1>Register</h1>
+                <img class="logo-2" src="/src/assets/images/logoTranas.png" alt="logo do site">
+
+                <fieldset>
+                    <legend>Your Information</legend>
+                    <input type="email" placeholder="Your email" id="email" name="email">
+                    <input type="text" placeholder="Your ID" id="userID" name="userID">
+                    <input type="date" placeholder="Date of birth" id="birthdateInput" name="birthdate">
+                    <input type="text" placeholder="Your address" id="streetName" name="streetName">
+                    <input type="text" placeholder="City" id="city" name="city">
+                    <input type="text" placeholder="State/Province" id="state" name="state">
+                    <input type="text" placeholder="Country" id="country" name="country">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Documents</legend>
+                    <input type="text" placeholder="NIF or CPF" id="document1" name="document1">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Password</legend>
+                    <input type="password" placeholder="Choose a password" id="password1" name="password1">
+                    <input type="password" placeholder="Enter the password again" id="password2" name="password2">
+                </fieldset>
+
+                <label for="signupLong">Already have an account?</label><br>
+                <a href="#" id="signupLong">Login</a><br><br>
+            </div>
+            <button type="button" class="login__button" onclick="cadastrar()">Cadastrar</button>
+        </form>
+    </div>
+
+    <script src="./src/scripts/index.js"></script>
 </body>
 </html>
