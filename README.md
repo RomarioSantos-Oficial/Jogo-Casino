@@ -1,1 +1,1 @@
-# Jogo-Casino
+# Jogo de simulação de Cassino
