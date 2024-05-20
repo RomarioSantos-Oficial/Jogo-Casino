@@ -1,4 +1,5 @@
-
+@import url(../styles-header/header.css);
+@import url(../reset.css);
 
 main{
     display: grid;
